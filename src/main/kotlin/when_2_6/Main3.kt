@@ -7,14 +7,4 @@ fun main() {
         else -> "Спать"
     }
     println(result)
-
-
-    val t = 12
-    val w = false
-    val r = when {
-        t in 8 .. 22 && w -> "Гулять"
-        t in 8 .. 22 && !w -> "Читать"
-        else -> "Спать"
-    }
-    println(r)
 }
